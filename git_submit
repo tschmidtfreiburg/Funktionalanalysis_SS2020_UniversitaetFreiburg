@@ -1,0 +1,31 @@
+#!/bin/zsh
+# 
+# Submit files
+
+
+
+
+autoload colors; colors
+
+
+echo $fg[green]"\n Git: Submitting FA:GIT \n -----------------------------\n\n"$reset_color
+
+
+
+
+cd "$(dirname "$0")"
+
+git pull origin master
+
+
+
+NOW=$(date +"%m-%d-%Y, %H:%M")
+
+# GSP = git script push
+
+git add --all . 
+git commit -m "GSP: $1, time: $NOW"
+git push origin master
+
+echo $fg[green]"\n DONE \n -----------------------------\n\n"$reset_color
+
