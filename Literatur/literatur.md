@@ -19,5 +19,8 @@ O. Hahn Über lineare Gleichungssysteme in linearen Räumen (1927)
 
 Solche Literatur finden Sie etwa über Google Scholar. Wenn Sie in dem
 Universitätsnetz sind, haben Sie Zugang zu den meisten Zeitschriften.
+
+Suchen Sie bücher auf katalog.ub.uni-freiburg.de Viele PDFs kann man aus dem Uni-Netz runterladen.
+
 Von außen kann man das über ein VPN erreichen.
 
